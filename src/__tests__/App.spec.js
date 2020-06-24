@@ -47,6 +47,7 @@ jest.mock(
 
 describe("Likes", () => {
   it("should add a like to the like counter of the repository", async () => {
+    console.log('teste');
     const { getByTestId } = render(<App />);
 
     apiMock
